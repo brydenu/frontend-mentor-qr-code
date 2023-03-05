@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+html, body {
+    background-color: #D6E1F0;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.card {
+    width: 300px;
+    padding: 10px 15px 40px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.header {
+    font-size: 1.3rem;
+    padding: 0 5px;
+}
+
+.sub-header {
+    color: grey;
+    font-weight: 500;
+    font-size: .9rem;
+    padding: 0 5px;
+}
+
+
